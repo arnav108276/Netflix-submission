@@ -3,6 +3,8 @@
 ### Clone the following repository   https://github.com/exit-zero-academy/NetflixFrontend.git
 ## Create EC2 instances
 ![image](https://github.com/user-attachments/assets/e6fc99f9-4007-4ae0-94ee-437b8fbf5fc7)
+## Edit inbound rules and open ports
+![image](https://github.com/user-attachments/assets/44f096a3-9535-4367-a09c-f444c4e7bf9c)
 
 ## Create DNS using route 53
 ![image](https://github.com/user-attachments/assets/1c634161-ab34-43ac-bbb4-97cc02143b28)
