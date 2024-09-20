@@ -8,6 +8,16 @@
 
 ## Create DNS using route 53
 ![image](https://github.com/user-attachments/assets/1c634161-ab34-43ac-bbb4-97cc02143b28)
+1. Build a Docker image of the following app: https://github.com/exit-zero-academy/NetflixFrontend.  and   https://github.com/exit-zero-academy/NetflixMovieCatalog.git 
+
+   This is a Node.js app. In the README you'll find instructions to build and run the app. 
+   Use it as a baseline for you Dockerfile instructions. 
+
+2. Push the images to container registry (either DockerHub or ECR). 
+3. Deploy your image in a fresh new `*.nano` Ubuntu EC2 instance (pull the image and run it). 
+4. In your Nginx instance, create a new `server` which routes traffic to your Netflix Frontend app. The app should be accessible from your domain, e.g.: http://netflix.devops-days-upes.com.
+
+
 
 ![image](https://github.com/user-attachments/assets/c303069e-7967-4909-be2c-ec435cb8b68b)
 
